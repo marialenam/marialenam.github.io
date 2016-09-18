@@ -1,0 +1,23 @@
+#tabs-titles{
+    float:left;
+    margin-right:10px;
+}
+#tabs-titles li{
+    cursor:pointer;
+	font-size:16px;
+}
+#tabs-titles li.current{
+    font-weight:bolder;
+	color:#ee6557;
+}
+#tabs-contents{
+    margin-left:100px;
+    padding:5px;
+}
+#tabs-contents li{
+    display:none;
+
+}
+#tabs-contents li:first-child{
+    display:block;
+}
